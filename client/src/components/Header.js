@@ -26,7 +26,7 @@ render() {
 return (
     <nav>
     <div class="nav-wrapper">
-      <Link to={this.props.auth ? '/surveys' : '/'}  class="brand-logo">Emaly</Link>
+      <Link to={this.props.auth ? '/surveys' : '/'}  class="brand-logo">Emaily</Link>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
        {this.renderContent()}
      
