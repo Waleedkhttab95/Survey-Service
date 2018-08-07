@@ -11,10 +11,10 @@ return `
 <p>Please answer the following qustion</p>
 <p>${survey.body}</p>
 <div>
-<a href="${keys.redirectDomin}/api/surveys/${survey.id}/yes">Yes </a>
+<a href="https://floating-temple-55554.herokuapp.com/api/surveys/${survey.id}/yes">Yes </a>
 </div>
 <div>
-<a href="${keys.redirectDomin}/api/surveys/${survey.id}/no">No </a>
+<a href="https://floating-temple-55554.herokuapp.com/api/surveys/${survey.id}/no">No </a>
 </div>
 </div>
 
